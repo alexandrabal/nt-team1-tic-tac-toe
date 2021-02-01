@@ -13,6 +13,8 @@ def start():
     is_correct_choice = True
     sign = 'x'
     board_matrix = initial_board.copy()
+    winner = None
+    player_name = None
 
     print('Welcome and good luck!')
 
@@ -44,6 +46,14 @@ def start():
         # Check if the game is won or not.
         is_won, is_over = check_status(board_matrix)
 
+        if is_won:
+            winner = player_name
+
         step += 1
 
     print('Game Over!')
+
+    if winner:
+        print(f'{winner} has won the game.')
+    else:
+        print('Game ended as a draw.')
