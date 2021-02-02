@@ -1,0 +1,9 @@
+2021-/02-01 20:51:41 - INFO - game: Welcome and good luck!
+2021-/02-01 20:51:41 - INFO - game: Player 1 is your turn.
+2021-/02-01 20:51:57 - ERROR - Tic-Tac-Toe App: 
+Traceback (most recent call last):
+  File "/home/mihaitzzza/Work/siit/nt-tic-tac-toe/main.py", line 18, in <module>
+    game.start()
+  File "/home/mihaitzzza/Work/siit/nt-tic-tac-toe/game/__init__.py", line 37, in start
+    choice = input('Pick your choice: ')
+KeyboardInterrupt

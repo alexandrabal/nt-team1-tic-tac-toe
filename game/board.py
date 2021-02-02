@@ -1,3 +1,7 @@
+import logging
+
+logger = logging.getLogger(__name__)
+
 board_matrix = [
     [None, None, None],
     [None, None, None],
@@ -27,6 +31,7 @@ def show(board):
     :param board: The board configuration
     """
     print('+---+---+---+')
+    logger.info('+---+---+---+')
 
     for row_index, row_data in enumerate(board):
         row_signs = []
@@ -39,7 +44,9 @@ def show(board):
         row_signs = str(row_signs)  # "['x', 2, 'o']"
         row_signs = row_signs.replace('[', '| ').replace(']', ' |').replace(',', ' |').replace("'", '')
         print(row_signs)
+        logger.info(row_signs)
         print('+---+---+---+')
+        logger.info('+---+---+---+')
 
 
 def set_choice(board, choice, sign):
