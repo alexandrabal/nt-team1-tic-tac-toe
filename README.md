@@ -5,7 +5,7 @@
 This is a Tic-Tac-Toe game developed by **Team 1** during the Python Development course within Scoala Informala de IT.
 
 ### Requirements:
-1. Rewrite `print` and `logging` so you don't have to write the messages you have to log more then once.
+1. Rewrite `print` and `logging` so you don't have to write the messages you have to log more then once. Also rename to output logs to `games_history` instead of just `games` [the name is really confusing, sorry about that :)]
 2. Add functionality to allow players to set their names before the start of the game..
 3. Add functionality to allow selecting a game system:
 	- add support for single game only
