@@ -43,4 +43,5 @@ This is a Tic-Tac-Toe game developed by **Team 1** during the Python Development
 6. Testare functii existente.
 
 **TBA:** Programare orientare pe obiecte
+
 **TBA:** tkinter (interfata grafica - GUI)
