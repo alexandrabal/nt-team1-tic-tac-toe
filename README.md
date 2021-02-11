@@ -25,7 +25,7 @@ This is a Tic-Tac-Toe game developed by **Team 1** during the Python Development
 	- in order to create an account, each player should complete the following:
 		- first_name
 		- last_name
-		- username (unique within data/credentials.json)
+		- username (at least 6 characters compose of lower case letters and digits only, unique within data/credentials.json)
 		- password (at least 6 characters with at least one digit)
 		- password confirmation
 6. Account for the following stats:
