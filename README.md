@@ -36,6 +36,11 @@ This is a Tic-Tac-Toe game developed by **Team 1** during the Python Development
 	- total 3 out of 5 games played (account after each 3/5 series)
 	- total 3 out of 5 games won (account after each 3/5 series)
 7. Add unit tests for as many functions as possible.
+8. Add functionality to allow Player 1 to play vs computer.
+	- computer is always the second player
+	- computer choices are random based on available options
+	- statistics vs computer won't be write to `json` file
+	- a game vs computer won't require authentication
 
 **TBA:** Object oriented programming
 
