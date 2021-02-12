@@ -3,6 +3,7 @@ import game
 import uuid
 import os.path
 
+
 logging.basicConfig(
     filename=os.path.join('games', f'{uuid.uuid4()}.txt'),
     filemode='a',
