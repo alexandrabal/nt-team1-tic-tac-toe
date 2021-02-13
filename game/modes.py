@@ -69,10 +69,3 @@ def player_vs_player():
     else:
         print('Game ended as a draw.')
         logger.info('Game ended as a draw.')
-
-<<<<<<< HEAD:game/modes.py
-=======
-    # Add game ending function that resets the board and asks play again or go to main menu or starts new game if bo3, bo5
-    from .menus import main_menu
-    main_menu()
->>>>>>> 26e657f3cacd4286966e8a8ee50d953d0a682b3a:game/gamemodes.py
