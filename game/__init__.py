@@ -1,8 +1,3 @@
-import logging
-from .menus import main_menu
+from .menus import main_menu as start
 
-logger = logging.getLogger(__name__)
-
-def start():
-    main_menu()
 
