@@ -4,10 +4,8 @@ from .modes import player_vs_player
 def main_menu():
     '''
     Displays main menu options
- 
-    '''                                        
-    on_main_menu = True
-    while on_main_menu:     
+    '''                                       
+    while True:     
         print('\nMain Menu')
         print('----------')
         print('1. Play')  # play submenu function created below
@@ -24,7 +22,6 @@ def main_menu():
 def play_menu():
     '''
     Displays play menu options
-
     '''
     on_play_menu = True   
     while on_play_menu:
