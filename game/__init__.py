@@ -19,7 +19,7 @@ def start():
     winner = None
     player_name = None
 
-    print('Welcome and good luck!')
+    print(f'Welcome and good luck!')
     logger.info('Welcome and good luck!')
 
     while not is_over:

@@ -2,6 +2,7 @@ import logging
 import game
 import uuid
 import os.path
+from game import player
 
 logging.basicConfig(
     filename=os.path.join('games', f'{uuid.uuid4()}.txt'),
@@ -15,6 +16,8 @@ logger = logging.getLogger('Tic-Tac-Toe App')
 
 if __name__ == '__main__':
     try:
+        for i in range(2):
+            player.ask_player_names()
         game.start()
     except BaseException as e:
         logger.exception(e)
