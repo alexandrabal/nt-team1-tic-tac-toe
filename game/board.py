@@ -50,7 +50,7 @@ def show(board):
 
 
 def set_choice(board, choice, sign):
-    new_board = board.copy()
+    new_board = [x[:] for x in board]
 
     for row_index, row_data in enumerate(board):
         for column_index, column_data in enumerate(row_data):
