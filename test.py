@@ -5,6 +5,7 @@ from game.status import check_winner, check_winning_sequence
 #     [4, 5, 6],
 #     [7, 8, 9],
 # ]
+
 # 1, 2, 3
 # 4, 5, 6
 # 7, 8, 9
@@ -15,6 +16,7 @@ from game.status import check_winner, check_winning_sequence
 # 3, 5, 7 => indexes = [(0, 2), (1, 1), (2, 0)]
 
 # check_winner(board)
+
 
 boards = [
     [

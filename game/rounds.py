@@ -7,6 +7,7 @@
 The functionality will add support for single game only
 Will add support for 2/3 games. The winner will be the one who wins 2 out of maximum 3 games
 3/5 The winner will be the one who wins 3 out of maximum 5 games"""
+from .__init__ import start
 
 #gamemode = (input("Hello, what's your name?"))
 
@@ -29,42 +30,20 @@ def check_player_choice():
     return numberOfGames
 
 """if the player selects 1 option run the game once"""
+startgame = start()
 
 def play_rounds(numberOfGames):
     i = 1
     while i <= numberOfGames:
-        print("game")
-        i +=1
+        startgame()
+        # i += 1
+        # print("game")
+"""instead of print games make the program call the start function depending on user input"""
+
 play_rounds(3)
 
 
 
-#     if userchoice == 1:
-#         # start()
-#         print("game")
-#     while
-#
-#     userchoice +=2
-#
-# play_rounds(1)
-
-
-#
-# start()
-#
-#
-#
-#     while numberOfGames == 1:
-# #
-# #     numberOfGames +=1
-# #     """pLay one round"""
-#         """play 3 rounds"""
-#         """play 5 rounds"""
-
-
-
-
-# """Add in __init__ """
 
 
 
