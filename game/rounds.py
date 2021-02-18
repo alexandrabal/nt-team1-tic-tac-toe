@@ -39,32 +39,6 @@ play_rounds(3)
 
 
 
-#     if userchoice == 1:
-#         # start()
-#         print("game")
-#     while
-#
-#     userchoice +=2
-#
-# play_rounds(1)
-
-
-#
-# start()
-#
-#
-#
-#     while numberOfGames == 1:
-# #
-# #     numberOfGames +=1
-# #     """pLay one round"""
-#         """play 3 rounds"""
-#         """play 5 rounds"""
-
-
-
-
-# """Add in __init__ """
 
 
 
