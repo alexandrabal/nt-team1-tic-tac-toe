@@ -2,6 +2,10 @@ import logging
 from .board import board_matrix as initial_board, get_options, show, set_choice
 from .status import check_status
 from .player import get_current_player
+from .rounds import check_player_choice
+
+
+check_player_choice()
 
 logger = logging.getLogger(__name__)
 
@@ -20,6 +24,7 @@ def start():
     player_name = None
 
     print('Welcome and good luck!')
+    print("")
     logger.info('Welcome and good luck!')
 
     while not is_over:
@@ -64,9 +69,16 @@ def start():
     print('Game Over!')
     logger.info('Game Over!')
 
+
+    if winner:
+        print(f'{winner}')
     if winner:
         print(f'{winner} has won the game.')
         logger.info(f'{winner} has won the game.')
     else:
         print('Game ended as a draw.')
         logger.info('Game ended as a draw.')
+
+start()
+
+

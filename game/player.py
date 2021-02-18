@@ -12,3 +12,5 @@ def get_current_player(step):
         sign = 'o'
 
     return name, sign
+
+

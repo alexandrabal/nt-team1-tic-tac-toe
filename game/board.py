@@ -40,7 +40,7 @@ def show(board):
                 row_signs.append(row_index * len(board) + column_index + 1)
             else:
                 row_signs.append(column_data)
-        # print('row_signs', row_signs)  # ['x', 2, 'o']
+        print('row_signs', row_signs)  # ['x', 2, 'o']
         row_signs = str(row_signs)  # "['x', 2, 'o']"
         row_signs = row_signs.replace('[', '| ').replace(']', ' |').replace(',', ' |').replace("'", '')
         print(row_signs)

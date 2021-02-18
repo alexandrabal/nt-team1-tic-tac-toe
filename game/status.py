@@ -8,7 +8,6 @@ def check_winning_sequence(sequence):
 
     return len(sequence_set) == 1 and None not in sequence_set
 
-
 def check_winner(board_matrix):
     """
     Checks if the game is won or not.
@@ -47,7 +46,6 @@ def check_winner(board_matrix):
         is_won = check_winning_sequence(sequence)
 
     return is_won
-
 
 def check_status(board_matrix):
     """
