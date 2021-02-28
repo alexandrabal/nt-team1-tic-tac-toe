@@ -1,0 +1,58 @@
+2021-02-28 22:10:42 - INFO - game.gameengine: Welcome and good luck!
+2021-02-28 22:10:42 - INFO - game.gameengine: Player 1 is your turn.
+2021-02-28 22:10:42 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:42 - INFO - game.board: | 1 | 2 | 3 |
+2021-02-28 22:10:42 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:42 - INFO - game.board: | 4 | 5 | 6 |
+2021-02-28 22:10:42 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:42 - INFO - game.board: | 7 | 8 | 9 |
+2021-02-28 22:10:42 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:42 - INFO - game.gameengine: Pick a choice from available options: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+2021-02-28 22:10:44 - INFO - game.gameengine: Pick your choice: 
+2021-02-28 22:10:44 - INFO - game.gameengine: Player choice: 1
+2021-02-28 22:10:44 - INFO - game.gameengine: Player 2 is your turn.
+2021-02-28 22:10:44 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:44 - INFO - game.board: | x | 2 | 3 |
+2021-02-28 22:10:44 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:44 - INFO - game.board: | 4 | 5 | 6 |
+2021-02-28 22:10:44 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:44 - INFO - game.board: | 7 | 8 | 9 |
+2021-02-28 22:10:44 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:44 - INFO - game.gameengine: Pick a choice from available options: [2, 3, 4, 5, 6, 7, 8, 9]
+2021-02-28 22:10:45 - INFO - game.gameengine: Pick your choice: 
+2021-02-28 22:10:45 - INFO - game.gameengine: Player choice: 5
+2021-02-28 22:10:45 - INFO - game.gameengine: Player 1 is your turn.
+2021-02-28 22:10:45 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:45 - INFO - game.board: | x | 2 | 3 |
+2021-02-28 22:10:45 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:45 - INFO - game.board: | 4 | o | 6 |
+2021-02-28 22:10:45 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:45 - INFO - game.board: | 7 | 8 | 9 |
+2021-02-28 22:10:45 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:45 - INFO - game.gameengine: Pick a choice from available options: [2, 3, 4, 6, 7, 8, 9]
+2021-02-28 22:10:46 - INFO - game.gameengine: Pick your choice: 
+2021-02-28 22:10:46 - INFO - game.gameengine: Player choice: 2
+2021-02-28 22:10:46 - INFO - game.gameengine: Player 2 is your turn.
+2021-02-28 22:10:46 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:46 - INFO - game.board: | x | x | 3 |
+2021-02-28 22:10:46 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:46 - INFO - game.board: | 4 | o | 6 |
+2021-02-28 22:10:46 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:46 - INFO - game.board: | 7 | 8 | 9 |
+2021-02-28 22:10:46 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:46 - INFO - game.gameengine: Pick a choice from available options: [3, 4, 6, 7, 8, 9]
+2021-02-28 22:10:48 - INFO - game.gameengine: Pick your choice: 
+2021-02-28 22:10:48 - INFO - game.gameengine: Player choice: 6
+2021-02-28 22:10:48 - INFO - game.gameengine: Player 1 is your turn.
+2021-02-28 22:10:48 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:48 - INFO - game.board: | x | x | 3 |
+2021-02-28 22:10:48 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:48 - INFO - game.board: | 4 | o | o |
+2021-02-28 22:10:48 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:48 - INFO - game.board: | 7 | 8 | 9 |
+2021-02-28 22:10:48 - INFO - game.board: +---+---+---+
+2021-02-28 22:10:48 - INFO - game.gameengine: Pick a choice from available options: [3, 4, 7, 8, 9]
+2021-02-28 22:10:48 - INFO - game.gameengine: Pick your choice: 
+2021-02-28 22:10:48 - INFO - game.gameengine: Player choice: 3
+2021-02-28 22:10:48 - INFO - game.gameengine: Game Over!
+2021-02-28 22:10:48 - INFO - game.gameengine: Player 1 has won the game.

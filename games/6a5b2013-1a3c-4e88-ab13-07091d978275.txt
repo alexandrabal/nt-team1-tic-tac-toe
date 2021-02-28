@@ -1,0 +1,17 @@
+2021-02-28 22:10:54 - ERROR - game.rounds: Oops that's not a valid GAME MODE
+2021-02-28 22:10:54 - ERROR - Tic-Tac-Toe App: name 'e' is not defined
+Traceback (most recent call last):
+  File "/Users/alexandra.balota/Desktop/Scoala Informala /nt-team1-tic-tac-toe/game/rounds.py", line 18, in check_player_choice
+    number_of_games = int(input(question))
+ValueError: invalid literal for int() with base 10: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alexandra.balota/Desktop/Scoala Informala /nt-team1-tic-tac-toe/main.py", line 19, in <module>
+    game.start_play()
+  File "/Users/alexandra.balota/Desktop/Scoala Informala /nt-team1-tic-tac-toe/game/__init__.py", line 7, in start_play
+    play_rounds(check_player_choice())
+  File "/Users/alexandra.balota/Desktop/Scoala Informala /nt-team1-tic-tac-toe/game/rounds.py", line 29, in check_player_choice
+    logger.exception(e)
+NameError: name 'e' is not defined
