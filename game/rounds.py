@@ -39,6 +39,8 @@ def play_rounds(numberOfGames):
         # i += 1
         # print("game")
 """instead of print games make the program call the start function depending on user input"""
+        print("game")
+        i +=1
 
 play_rounds(3)
 
