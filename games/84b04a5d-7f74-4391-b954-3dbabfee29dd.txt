@@ -1,0 +1,5 @@
+2021-02-28 21:39:05 - ERROR - Tic-Tac-Toe App: module 'game' has no attribute 'game_start'
+Traceback (most recent call last):
+  File "/Users/alexandra.balota/Desktop/Scoala Informala /nt-team1-tic-tac-toe/main.py", line 19, in <module>
+    game.game_start()
+AttributeError: module 'game' has no attribute 'game_start'

@@ -3,7 +3,6 @@ import copy
 from .board import board_matrix as initial_board, get_options, show, set_choice
 from .status import check_status
 from .player import get_current_player
-from .rounds import check_player_choice, play_rounds
 
 logger = logging.getLogger(__name__)
 

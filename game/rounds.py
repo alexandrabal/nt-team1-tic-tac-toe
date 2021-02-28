@@ -1,4 +1,5 @@
 import logging
+from .gameengine import game_start
 
 logger = logging.getLogger(__name__)
 
@@ -28,6 +29,6 @@ def check_player_choice():
             logger.exception(e)
         return number_of_games
 
-def play_rounds(number_of_games):
-    for i in (0,number_of_games):
-        return play_rounds()
+def play_rounds(how_many_rounds):
+    for i in range(0,how_many_rounds):
+        game_start()

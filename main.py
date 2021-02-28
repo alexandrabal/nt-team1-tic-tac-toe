@@ -16,6 +16,6 @@ logger = logging.getLogger('Tic-Tac-Toe App')
 if __name__ == '__main__':
 
     try:
-        game.game_start()
+        game.start_play()
     except BaseException as e:
         logger.exception(e)
