@@ -1,3 +1,5 @@
+import copy
+
 def check_winning_sequence(sequence):
     """
     Checks for winning sequence.
@@ -7,6 +9,7 @@ def check_winning_sequence(sequence):
     sequence_set = set(sequence)
 
     return len(sequence_set) == 1 and None not in sequence_set
+
 
 def check_winner(board_matrix):
     """
@@ -57,6 +60,7 @@ def check_status(board_matrix):
 
     if is_won:
         is_over = True
+        copy.deepcopy(new_board)
     else:
         is_over = True
 

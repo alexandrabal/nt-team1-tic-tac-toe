@@ -5,7 +5,7 @@ from .player import get_current_player
 from .rounds import check_player_choice
 
 
-check_player_choice()
+# check_player_choice()
 
 logger = logging.getLogger(__name__)
 
