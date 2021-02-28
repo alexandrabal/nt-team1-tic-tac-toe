@@ -1,5 +1,4 @@
 import logging
-import copy
 
 logger = logging.getLogger(__name__)
 
@@ -47,7 +46,6 @@ def show(board):
         logger.info(row_signs)
         print('+---+---+---+')
         logger.info('+---+---+---+')
-
 
 def set_choice(board, choice, sign):
     new_board = board.copy()

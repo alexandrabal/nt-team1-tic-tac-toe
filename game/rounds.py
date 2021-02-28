@@ -1,9 +1,11 @@
+import logging
+
+logger = logging.getLogger(__name__)
+
 """
 The functionality will add support for single game only
 Will add support for 2/3 games. The winner will be the one who wins 2 out of maximum 3 games
 3/5 The winner will be the one who wins 3 out of maximum 5 games"""
-
-# from .__init__ import start
 
 question = "Please enter a Game Mode: - How many rounds do you wish to play -  1, 3 or 5?"
 
@@ -14,29 +16,18 @@ def check_player_choice():
         try:
             number_of_games = int(input(question))
             if number_of_games == 1 or number_of_games == 3 or number_of_games == 5:
-                valid_number_of_games = True
+                valid_number_of_games == True
                 print(number_of_games, "Rounds - Let's go!")
             else:
                 print("Oops that's not a valid GAME MODE")
+                logger.error("Oops that's not a valid GAME MODE")
+                logger.exception(e)
         except ValueError:
             print("Oops that's not a valid GAME MODE")
-    return number_of_games
-
-# startgame = start()
+            logger.error("Oops that's not a valid GAME MODE")
+            logger.exception(e)
+        return number_of_games
 
 def play_rounds(number_of_games):
     for i in (0,number_of_games):
         return play_rounds()
-
-
-
-
-
-
-
-
-
-
-
-
-

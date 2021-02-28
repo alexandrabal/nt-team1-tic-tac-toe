@@ -11,11 +11,11 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S',
 )
 
-
 logger = logging.getLogger('Tic-Tac-Toe App')
 
 if __name__ == '__main__':
+
     try:
-        game.start()
+        game.game_start()
     except BaseException as e:
         logger.exception(e)
